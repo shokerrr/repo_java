@@ -1,7 +1,8 @@
-package com.testwork.demo;
+package com.testwork.demo.DAO;
 
 
 import com.mysql.jdbc.Connection;
+import com.testwork.demo.Connect;
 
 import java.sql.ResultSet;
 import java.sql.Statement;
@@ -12,7 +13,7 @@ public class Model {
 
 
         public Model() {
-           vector = createVector();
+           vector = createVector();// устаревшая коллекция
         }
 
         public Vector<String> createVector() {

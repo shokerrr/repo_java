@@ -1,4 +1,4 @@
-package com.testwork.demo;
+package com.testwork.demo.View;
 
 import javax.swing.*;
 
@@ -7,6 +7,7 @@ public class View extends JDialog {
     public JButton buttonAdd;
     public JTextArea textArea1;
     public JList list1;
+    //SWING уже не используют
 
 
     public View() {

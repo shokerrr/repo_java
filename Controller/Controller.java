@@ -1,5 +1,8 @@
-package com.testwork.demo;
+package com.testwork.demo.Controller;
 
+
+import com.testwork.demo.DAO.Model;
+import com.testwork.demo.View.View;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
